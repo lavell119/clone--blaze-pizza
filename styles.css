@@ -211,9 +211,16 @@
     justify-content: space-between;
 }
 
+
+.footer-top {
+    height: 52px;
+    width: 100%;
+}
+
 .footer {
     height: 240px;
     width: 100%;
     background: red;
     background: rgb(243, 243, 243);
 }
+
