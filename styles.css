@@ -28,13 +28,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 480px;
+    width: 440px;
 }
 
 .login-btn {
-    width: 110px;
+    width: 80px;
     height: 35px;
-    background: green;
+    font-size: 14px;
 }
 
 .menu-btn {
@@ -239,8 +239,6 @@
 }
 
 .mini-nav {
-    position: absolute;
-    bottom: 37px;
     font-size: 13px;
     width: 550px;
 }
@@ -275,4 +273,45 @@ a {
 
 .underline {
     text-decoration: underline;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.navs {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo {
+    height: 100px;
+    width: 355px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.social-btns {
+    height: 100px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 27px;
+    padding-right: 30px;
+
+}
+
+.login-btn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
