@@ -172,7 +172,7 @@
     height: 735px;
     width: 100%;
     background: rgb(224, 222, 222);
-    border-bottom: 3px solid grey;
+    border-bottom: 2px solid grey;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -213,14 +213,66 @@
 
 
 .footer-top {
-    height: 52px;
+    height: 50px;
     width: 100%;
 }
 
 .footer {
-    height: 240px;
+    height: 162px;
     width: 100%;
-    background: red;
     background: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
 }
 
+.nav {
+    display: flex;
+    list-style-type:none;
+    text-decoration: none;
+    width: 650px;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.mini-nav {
+    position: absolute;
+    bottom: 37px;
+    font-size: 13px;
+    width: 550px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.btm-strip {
+    height: 71px;
+    width: 100%;
+    background: black;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.btm-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+
+.middle {
+    display: flex;
+    gap: 17px;
+}
+
+.underline {
+    text-decoration: underline;
+}
