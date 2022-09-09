@@ -37,15 +37,38 @@
     font-size: 14px;
 }
 
+button {
+    background: black;
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: white;
+    color: black;
+}
+
 .menu-btn {
     width: 160px;
     height: 42px;
     background: black;
     display: flex;
+    border: 2px solid black;
     justify-content: center;
     align-items: center;
     color: white;
     border-radius: 4px;
+    cursor: pointer;
+}
+
+.menu-btn:hover {
+    background: white;
+    color: black;
 }
 
 .banner {
